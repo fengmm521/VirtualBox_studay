@@ -1,1 +1,8 @@
 # VirtualBox_studay
+
+最近在调试一个服务器的代码时发现一个问题，就是linux下的源码调试起来并没有现成的IDE，般linux下的开发者都是自已使用vim或者emacs自已配置自已的开发IDE，但linux下调试C++可以使用gdbserver远程调试。也有人使用vs远程调试linux下的C++。在想为什么没有人在mac或者windows下开发一个linux下的开发调试工具。
+
+想法是这样的：
+使用virtualbox的源码和linux源码作一个夸平台的linux源码程序调试工具。这样就不用在虚拟机里切来切去了。
+
+现在先把virtualbox的源码上传上去，有时间了再分析这个源码.
